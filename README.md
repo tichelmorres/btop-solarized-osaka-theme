@@ -2,7 +2,7 @@
 
 A Solarized-inspired dark theme for **Btop++** using the color palette from *Solarized Osaka* (Neovim) by Takuya Matsuyama (GitHub: `craftzdog`).
 
-![Screenshot that shows the Solarized Osaka theme applied to Btop++](assets/btop-solarized-osaka.png)
+![Screenshot that shows the Solarized Osaka theme applied to Btop++](assets/btop-solarized-osaka-theme.png)
 
 ---
 

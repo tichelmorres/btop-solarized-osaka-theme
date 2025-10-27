@@ -2,7 +2,7 @@
 
 A Solarized-inspired dark theme for **Btop++** using the color palette from *Solarized Osaka* (Neovim) by Takuya Matsuyama (GitHub: `craftzdog`).
 
-![Screenshot that shows the Solarized Osaka theme applied to Btop++](        https://raw.githubusercontent.com/tichelmorres/btop-solarized-osaka-theme/main/assets/btop-solarized-osaka-theme.png)
+![Screenshot that shows the Solarized Osaka theme applied to Btop++](assets/btop-solarized-osaka-theme.png)
 
 ---
 
@@ -14,14 +14,14 @@ Solarized Osaka is an enhancement of Ethan Schoonover’s original Solarized pal
 
 ## ✨ Features
 
-* Single `.theme` file for a direct drop-in install.
-* Preserves exact Solarized Osaka color values used where appropriate.
+- Single `.theme` file for a direct drop-in install.
+- Preserves exact Solarized Osaka color values used where appropriate.
 
 ---
 
 ## ⚡️ Requirements
 
-* [Btop++](https://github.com/aristocratos/btop) (a modern fork of btop). For the best experience (truecolor/24-bit colors and latest fixes), use a recent btop/btop++ 1.x release.
+- [Btop++](https://github.com/aristocratos/btop) (a modern fork of btop). For the best experience (truecolor/24-bit colors and latest fixes), use a recent btop/btop++ 1.x release.
 
 ---
 
@@ -47,14 +47,14 @@ cp themes/solarized-osaka.theme "${XDG_CONFIG_HOME:-$HOME/.config}"/btop/themes/
 
 To make the theme available system-wide (i.e. for all users), copy the theme into one of btop's system theme locations (depends on how btop was installed):
 
-* `/usr/local/share/btop/themes`
-* `/usr/share/btop/themes`
+- `/usr/local/share/btop/themes`
+- `/usr/share/btop/themes`
 
 Example (requires root):
 
 ```bash
-# sudo is also fine
-doas cp themes/solarized-osaka.theme /usr/local/share/btop/themes/
+# doas is also fine
+sudo cp themes/solarized-osaka.theme /usr/local/share/btop/themes/
 ```
 
 > Note: Some package managers place btop share files in non-standard locations. If btop does not detect a system-wide theme, check the package's `share` path and create a symlink if necessary.
@@ -90,4 +90,4 @@ This repository is distributed under the Apache License 2.0 — see `LICENSE` fo
 
 ---
 
-*Thanks for using btop-solarized-osaka-theme — feel free to open issues or PRs for fixes, additions, or theme variants.*
+*Thanks for using btop-solarized-osaka-theme. Feel free to open issues or PRs for fixes, additions, or theme variants.*
